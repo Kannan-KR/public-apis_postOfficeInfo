@@ -1,0 +1,29 @@
+* {
+  font-family: cursive;
+}
+
+#heading {
+  padding-top: 3vh;
+}
+
+#listContainer {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2vw;
+  justify-content: center;
+
+  margin-bottom: 6vh;
+}
+
+.card-header {
+  background: linear-gradient(to bottom, rgb(255, 200, 200) 0%, white 80%);
+}
+.card-footer {
+  background: linear-gradient(to top, rgb(255, 200, 200) 0%, white 80%);
+}
+
+#headPart {
+  display: flex;
+  justify-content: space-around;
+  margin: 6vh auto;
+}
